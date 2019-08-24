@@ -1,0 +1,53 @@
+// The systen for this file is proto3
+syntax = "proto3";
+
+/*  Person is used to identify users
+*   accross our system */
+message Person {
+    // The age as of the person's creation
+    int32 age = 1;
+    // the first name as documented in the signup form
+    string first_name = 2;
+    string last_name = 3; // last name as documented in the signup form
+    // small_picture represents a small .jpg file
+    bytes small_picture = 4;
+    bool is_profile_verified = 5;
+    // height of the person in cms
+    float height = 6;
+
+    /* repeated fields (we can have phone numbers 0 or more)
+    *   a list of phone numbers that is optional to provide at signup */
+    repeated string phone_numbers = 7;
+
+    // We currently considering only three eye colors
+    enum EyeColor {
+        // This is the default value of the enum
+        // Each value has no type. its the value itself. i.e. EYE_GREEN, EYE_BLUE... are the values
+        UNKNOWN_EYE_COLOR = 0;
+        EYE_GREEN = 1;
+        EYE_BLUE = 2;
+        EYE_BROWN = 3;
+    }
+    // It;s an enum as defined above
+    EyeColor eye_color = 8;
+
+    // Person's birthday
+    Date birthday = 9;
+}
+
+
+// Since the message Date is defined here, its now an actual "field type"
+message Date {
+  // Year of date. Must be from 1 to 9999, or 0 if specifying a date without
+  // a year.
+  int32 year = 1;
+
+  // Month of year. Must be from 1 to 12, or 0 if specifying a year without a
+  // month and day.
+  int32 month = 2;
+
+  // Day of month. Must be from 1 to 31 and valid for the year and month, or 0
+  // if specifying a year by itself or a year and month where the day is not
+  // significant.
+  int32 day = 3;
+}

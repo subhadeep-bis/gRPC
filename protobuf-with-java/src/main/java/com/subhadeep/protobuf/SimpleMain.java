@@ -44,14 +44,14 @@ public class SimpleMain {
         /* Getting simple message out of the builder*/
         SimpleMessage message = builder.build();
 
-        /* Before with the builder we were setting fields, but after its built
+        /* Before, with the builder we were setting fields, but after its built,
         * we can get the data from it by get methods*/
         message.getId();
         message.getName();
 
         /* We may want to write the message to the file
         * and we do it in the following way
-        * i.e. write the protocol buffers binary to a file*/
+        * i.e. to write the protocol buffers binary to a file*/
 
         try {
             FileOutputStream outputStream = new FileOutputStream("simple_message.bin");

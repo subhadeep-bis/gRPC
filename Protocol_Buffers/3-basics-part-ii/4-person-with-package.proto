@@ -1,8 +1,10 @@
 // The system for this file is proto3
 syntax = "proto3";
 
+package person;
+
 // Importing Date Type
-import "./3-date.proto";
+import "./4-date-with-package.proto";
 
 /*  Person is used to identify users
 *   across our system */
@@ -34,8 +36,11 @@ message Person {
     // It;s an enum as defined above
     EyeColor eye_color = 8;
 
-    // Person's birthday
-    Date birthday = 9;
+    /* Person's birthday
+    * Date was changed to my.date.Date because in the 4-date-with-package.proto the package given is "my.date" and when the proto
+    * files will be compiled then the generated code for Date message will go in the package "my.date" and as such we will have to
+    * use my.date.Date inorder to use it because the fully qualified date is now my.date.Date*/
+    my.date.Date birthday = 9;
 
     /* nested message "Address"
     *    we define the type Address within Person (full name is Person.Address) */

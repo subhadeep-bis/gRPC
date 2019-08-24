@@ -1,0 +1,40 @@
+
+Dsquid:S1199f"-Extract this nested code block into a method.(­Ó–Ô
+Dsquid:S1199k"-Extract this nested code block into a method.(İ…î½
+Isquid:S1199p"-Extract this nested code block into a method.(­ƒíéşÿÿÿÿ
+Isquid:S1199v"-Extract this nested code block into a method.(ÙšÖ­ùÿÿÿÿ
+Isquid:S1199~"-Extract this nested code block into a method.(ì¼Â©ûÿÿÿÿ
+Jsquid:S1199‹"-Extract this nested code block into a method.(Î—­Šşÿÿÿÿ
+Jsquid:S1199¬"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+vsquid:S1488Ã"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+isquid:S00117["QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß”â¢
+jsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+[squid:S1155‘">Use isEmpty() to check whether the collection is empty or not.(àğøüÿÿÿÿ
+squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒ°‡ıÿÿÿÿ
+Ksquid:S1172	"/Remove this unused method parameter "registry".(•óÊõÿÿÿÿÿ
+Fsquid:S3077Á".Remove the "volatile" keyword from this field.(áè±Í
+{squid:S4144ã"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 842.(‘Ø‚
+gsquid:S00116¯"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+rsquid:S00116¸"TRename this field "isSimple_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯»†£úÿÿÿÿ
+isquid:S00116Á"PRename this field "name_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áè±Í
+tsquid:S00116ã"VRename this field "sampleList_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÂ†”şÿÿÿÿ
+?squid:S1948Á"'Make "name_" transient or serializable.(áè±Í
+Jsquid:S1948ã"-Make "sampleList_" transient or serializable.(ëÂ†”şÿÿÿÿ
+nsquid:S3776S"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(óİ…ïúÿÿÿÿ
+Esquid:S1940w")Use the opposite operator ("==") instead.(«‹¦œøÿÿÿÿ
+Asquid:S1940")Use the opposite operator ("==") instead.(×„ÎÃ
+Fsquid:S1125‹")Remove the literal "false" boolean value.(•ë¸şÿÿÿÿÿ
+Fsquid:S1125¥")Remove the literal "false" boolean value.(•ë¸şÿÿÿÿÿ
+^squid:S1126Ñ"AReplace this if-then-else statement by a single return statement.(®Èäîÿÿÿÿÿ
+/squid:S2176É"Rename this class.(ºœÓ­úÿÿÿÿ
+nsquid:S00116÷"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+gsquid:S00116ù"NRename this field "id_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—‡Ñ÷
+rsquid:S00116“"TRename this field "isSimple_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯»†£úÿÿÿÿ
+hsquid:S00116­"PRename this field "name_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñœã/
+tsquid:S00116ò"VRename this field "sampleList_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üòÎôüÿÿÿÿ
+Bsquid:S00108æ")Either remove or fill this block of code.(º„ç½
+[squid:S1854"CRemove this useless assignment to local variable "from_bitField0_".(ÆÓ¡€
+psquid:S2975œ"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(Îõ¾Òûÿÿÿÿ
+Fsquid:S1125Ê")Remove the literal "false" boolean value.(¯€¢ıúÿÿÿÿ
+Asquid:S1940ô")Use the opposite operator ("==") instead.(¦ÁÕ“
+Lsquid:S1481"4Remove this unused "from_bitField0_" local variable.(ÆÓ¡€

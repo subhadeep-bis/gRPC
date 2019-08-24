@@ -1,0 +1,19 @@
+
+Wsquid:S1854F"9Remove this useless assignment to local variable "bytes".(„èè¶8Ğ×¨Ì-
+Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8óŠî§Ì-
+Fsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8İÖú¨Ì-
+Fsquid:S1148P"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8×¶ö¨Ì-
+bsquid:S2147Q"DCombine this catch with the one at line 79, which has the same body.(ï­£Ä8İÖú¨Ì-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(”á®öüÿÿÿÿ8ŸÃ§Ì-
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(şßíš8éœÙ§Ì-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(½¦ÿÿÿÿÿ8ûÿ“¦Ì-
+Fsquid:S1148@"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¬¼ì§Ì-
+V
+squid:S106N"9Replace this use of System.out or System.err by a logger.(È×Œé8‡¨ÿ¨Ì-
+Hsquid:S1481F"*Remove this unused "bytes" local variable.(„èè¶8Ğ×¨Ì-
+[
+squid:S106K"9Replace this use of System.out or System.err by a logger.(±·¼¥üÿÿÿÿ8˜“€©Ì-
+isquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(¦‰´Ú8ëºØ¨Ì-
+gsquid:S2147?"DCombine this catch with the one at line 60, which has the same body.(©œ¡ÿÿÿÿÿ8óŠî§Ì-
